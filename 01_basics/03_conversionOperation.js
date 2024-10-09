@@ -24,8 +24,39 @@ true => 1 , false => 0
 // "" => false
 //"aayush" => true
 
-let somenumber = 69
-let stringNumber = String(somenumber)
+// let somenumber = 69
+// let stringNumber = String(somenumber)
 
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+// let value = 69
+// let negValue = -value
+// console.log(negValue)
+
+
+// console.log(2 + 2)
+// console.log(2 - 2)
+// console.log(2 * 2) //simple math operation
+// console.log(2 ** 3)
+// console.log(4/2)
+// console.log(4%1)
+
+// console.log(2 + "2")
+// console.log("3" + 3)
+// console.log("4" + 4 + 1) //if string first then it will see all as string.
+// console.log(2 + 3 + "4") //if number first then it will see all as number.
+
+// console.log(true)
+// console.log(+true)
+// // console.log(true+) failed
+
+// let x = 3
+
+// const y = x++
+//  console.log(`x:${x}, y:${y}`)
+
+//  let a = 3
+
+// const b = ++a
+//  console.log(`x:${a}, y:${b}`)
