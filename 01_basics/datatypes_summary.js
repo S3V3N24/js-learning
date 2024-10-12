@@ -30,3 +30,23 @@
 //  }
 
 //  console.log(typeof myFunction);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++
+
+// let myName = "Alexa"
+// let yourName = myName
+
+// yourName = "padoshinaam" 
+// console.log(myName)
+// console.log(yourName)
+
+//reference 
+
+let infoMe = {
+   naam: "aps7"
+}
+
+let infoAnother = infoMe
+infoAnother.naam = "aps7@xyz"
+console.log(infoMe.naam)
+console.log(infoAnother.naam)
