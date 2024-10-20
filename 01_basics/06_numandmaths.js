@@ -33,11 +33,16 @@
 
 // console.log(Math.random()*10 + 1);
 
-const min = 20
-const max = 50
+// const min = 20
+// const max = 50
 
-console.log(Math.floor (Math.random() * (max - min * 1) + min));
+// console.log(Math.floor (Math.random() * (max - min * 1) + min));
 
+// console.log(math.floor(Date.now()/1000));
+
+let newDate = new Date()
+ console.log(newDate.getMonth() + 1);
+ console.log(newDate.getDay());
 
 
 
