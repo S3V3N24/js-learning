@@ -16,6 +16,22 @@ const NewUser = {
     }
 
 }
- console.log(NewUser.gmail);
+//  console.log(NewUser.gmail);
+
+const course ={
+    courseName : "js hindi",
+    price : "999",
+    courseInstructor : "seven"
+
+}
  
+const {courseInstructor: Instructor} = course
+// console.log(Instructor);
+
+// {
+//     "name" = "seven",
+//     "coursename" : "js in hindi",
+//     "pride" : "free"
+// }
+
 
