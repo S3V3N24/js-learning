@@ -26,3 +26,17 @@ const balance = 1000
 
 if(balance > 500) console.log("test");  //implicite scope
 
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitCard && 2==3) {
+    console.log("allowed to buy course");
+    
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("user is logged in");
+    
+}
